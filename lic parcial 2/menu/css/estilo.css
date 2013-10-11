@@ -1,0 +1,69 @@
+
+	body 
+		{ background:rgb(102,153,204);
+		  font-family: Verdana, Geneva, Arial, Helvetica, Sans-serif;
+		  font-size: 10pt;
+		  background-color: #666;
+		}
+
+	#inputs 
+			{ border:1px inset rgb(153,204,255);
+			  width: 40px;
+	       	  background:rgb(148,204,252);
+		      text-align : center;
+		   	}
+	
+	#boton
+			{ background: rgb(102,153,204) border:1px outset rgb(153,204,255);
+			  width:80px;
+	          font : 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+		      background-color : #FFFACD;
+		      color : #4B0082;
+		   	}
+	
+	.Estilo1 
+			{ font-size: 36px;
+	          font-weight: bold;
+	          font-family: Verdana;
+	          text-align: center;
+	          color: Navy;
+			}
+
+	.Estilo2 
+			{ color: #FFFFFF
+			}
+	
+	.Estilo3 
+			{ font-size: 9pt;
+	          font-weight: bold;
+			}
+	
+	.bordetablaexterior 
+						{ border: thin solid #97989A;
+	                      text-align: center;
+						  background-color: #063F44;
+					      font: 10pt;
+						  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+						}
+
+	#uno { font: Bold}
+
+	#dos {background-color: black}
+	
+	#tres { text-align: justify;
+		    font-size: 10pt;
+		  }
+	
+	#cuatro { background-color: #011e30;}
+	
+	#cinco { text-align: center;
+		     font-size: 9pt;
+		     color: white;
+		   }
+	
+	#seis { color: white;}
+	
+	dt {color: white;}
+	
+	dd { color: #97989A;}
+	

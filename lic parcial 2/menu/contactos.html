@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<style>
+
+h1{
+text-align:center;
+color:red;
+}
+
+body{
+background-color:gray;
+}
+
+fieldset{
+margin-left:340px;
+margin-right:610px;
+margin-top:40px;
+color:blue;
+}
+
+</style>
+<script src="validaciones.js"></script>
+<body>
+
+<h1>Formulario de Contactos.</h1>
+
+<form name="conmen" method="post" action="">
+                    
+                    <fieldset>						                     
+                            
+                                <label for="name">Ocupaci&oacute;n:</label>
+                                <select name="statusflight" id="statusflight" style="width: 180px;">
+                                    <option value="completed_flight">Seleccionar</option>
+                                    <option value="yes">Estudiante.</option>
+                                    <option value="no">Trabajador Profesional.</option>
+									<option value="otros">Otros.</option>
+                                </select>
+                            
+							<br>
+                            
+                                <label for="name">Sexo:</label><br>
+                                <select size="1" id="country" name="sexo" style="width: 124px;">
+                                    
+									<option selected value="">Seleccionar</option>
+                                    <option value="KBL">Masculino</option>
+                                    <option value="TIA">Femenino</option>
+                                    
+                                </select>
+                            
+							<br>
+							
+                                <label for="name">
+                                    Nombre:</label>
+                               <input type="text" name="fname" id="fname"  onkeypress="return soloLetras(event)"/>
+                            
+							<br>
+							
+                                <label for="name">
+                                    Apellidos:</label>
+                                
+								<input type="text" name="fname" id="fname"  onkeypress="return soloLetras(event)"/>
+							
+							<br>
+							
+							    <label for="name">
+                                    Email:</label>
+									
+                                <input name="email" id="e-mail" type="text"  placeholder="Ejemplocorreo019@yahoo.es"  class="forminput" onclick="validar_correo();" size="30" maxlength="45" />
+                     	
+						    <br>
+							<br>
+							
+						    <div class="btnnext">
+                            <a href="index.html">Enviar</a></div>
+						
+					</fieldset>
+                    
+</form>
+</body>
+</html>				

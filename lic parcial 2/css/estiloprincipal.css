@@ -1,0 +1,164 @@
+	body * {
+			margin: 0px;
+			padding: 0px;
+			}
+      
+	body {  background-color: #666;
+			font-family: new times romans;
+			font-size: 18px;}
+    
+	#container {
+				max-width: 960px;
+				margin: 0 auto; 
+				background-color: black;
+				}
+           
+	nav {	border-radius:10px;
+			max-width: 965px;
+			height:60px;
+			background:linear-gradient(#CCC 0%, #633 100%);
+			background:-moz-linear-gradient(#CCC 0%, #633 100%);
+			background:-ms-linear-gradient(#CCC 0%, #633 100%);
+			background:-o-linear-gradient(#CCC 0%, #633 100%);
+			background:-webkit-linear-gradient(#CCC 0%, #633 100%);
+			position: relative;
+			display:inline-block;
+			left: 20%;
+			float: left;
+		}
+				     
+	header nav li {
+					list-style: none;
+					float: rigth;		
+					display:inline-block;
+					height: 30px;
+					text-align:center;
+					margin: 0px auto;
+					background:none;
+					color:#fff;
+					font:bold;
+					padding:10px;
+					position: relative; 
+					}
+					
+	header nav li a {   
+						color: #fff;
+						display: block;
+						padding: 2px 10px;
+					}
+					
+	a:link, a:visited { text-decoration: none }
+    
+    a:hover {color: blue;}
+      
+    header nav li:hover {
+							background:-moz-linear-gradient(#FFF 0%, #C4C4C4 100%);
+							background:linear-gradient(#FFF 0%, #DEDEDE 100%);
+							background:-ms-linear-gradient(#FFF 0%, #DEDEDE 100%);
+							background:-o-linear-gradient(#FFF 0%, #DEDEDE 100%);
+							background:-webkit-linear-gradient(#FFF 0%, #DEDEDE 100%);
+							opacity:0.6;
+							-moz-opacity:0.6;
+							-o-opacity:0.6;
+							-webkit-opacity:0.6;
+							-ms-opacity:0.6;
+							border-radius:5px;
+							box-shadow:0 0 10px #FFf;
+							-moz-box-shadow:0 0 10px #FFf;
+							-ms-box-shadow:0 0 10px #FFf;
+							-o-box-shadow:0 0 10px #FFf;
+							-webkit-box-shadow:0 0 10px #FFf;		
+						}
+						
+						
+	#contenedor {
+				max-width: 100%;
+				margin: 0 auto;
+				max-height: 100%;
+				background-color:yellow;
+				} 	
+	
+	#navegador {	border-radius: 25px;
+			max-width: 160px;
+			height: 350px;
+			margin-top: 25px;
+			margin-left: 0px;
+			background: linear-gradient(#CCC 0%, #633 100%);
+			background: -moz-linear-gradient(#CCC 0%, #633 100%);
+			background: -ms-linear-gradient(#CCC 0%, #633 100%);
+			background: -o-linear-gradient(#CCC 0%, #633 100%);
+			background: -webkit-linear-gradient(#CCC 0%, #633 100%);
+			position: absolute;
+			
+		}
+		
+	h3 { margin-top: 5px;
+		 text-align: center;
+				   }
+				     
+	aside nav li {
+					list-style: none;
+					float: left;	
+					display:inline-block;
+					height:30px;
+					text-align:center;
+					margin: 2.5px auto;
+					background:none;
+					color:#fff;
+					font:bold;
+					padding:10px;
+					position: relative;
+					}
+					
+	aside nav li a {   
+						color: #fff;
+						display: block;
+						padding: 2px 10px;
+					}
+					
+	a:link, a:visited { text-decoration: none }
+    
+    a:hover {color: blue;}
+      
+    aside nav li:hover {
+							background:-moz-linear-gradient(#FFF 0%, #C4C4C4 100%);
+							background:linear-gradient(#FFF 0%, #DEDEDE 100%);
+							background:-ms-linear-gradient(#FFF 0%, #DEDEDE 100%);
+							background:-o-linear-gradient(#FFF 0%, #DEDEDE 100%);
+							background:-webkit-linear-gradient(#FFF 0%, #DEDEDE 100%);
+							opacity:0.6;
+							-moz-opacity:0.6;
+							-o-opacity:0.6;
+							-webkit-opacity:0.6;
+							-ms-opacity:0.6;
+							border-radius:5px;
+							box-shadow:0 0 10px #FFf;
+							-moz-box-shadow:0 0 10px #FFf;
+							-ms-box-shadow:0 0 10px #FFf;
+							-o-box-shadow:0 0 10px #FFf;
+							-webkit-box-shadow:0 0 10px #FFf;		
+						}						
+						
+						
+						
+						
+						
+      
+	#contents {
+				width: 88%;
+				clear: both;
+				background-color:blue;
+				position: absolute;
+				margin-top: 100px;
+				margin-left: 163px;
+			   }
+			  
+		
+	img {width: 100%;
+		  }
+
+	h2 {width: 100%;
+		text-align: center;}
+		  
+	figcaption {color: white;
+				text-align: center;}
